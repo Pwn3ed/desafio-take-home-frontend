@@ -1,8 +1,9 @@
+import { UserList } from "../components/UserList";
 
 const Home = () => {
   return (
     <div className="flex flex-col items-center">
-      <h1>Homepage page</h1>
+      <UserList />
     </div>
   )
 }
