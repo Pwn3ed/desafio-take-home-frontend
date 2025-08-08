@@ -1,16 +1,24 @@
 # Desafio Take Home Frontend
 
-Este projeto é um frontend React + Vite com TypeScript.
+Este projeto é um desafio de frontend para fazer um mini dashboard de usuários.
+
 
 ## Como rodar o projeto
 
-1. **Instale as dependências:**
+1. **Clone o repositório:**
+
+  ```bash
+  git clone https://github.com/Pwn3ed/desafio-take-home-frontend.git
+  cd desafio-take-home-frontend
+  ```
+
+2. **Instale as dependências:**
 
   ```bash
   npm install
   ```
 
-2. **Rode o projeto em modo desenvolvimento:**
+3. **Rode o projeto em modo desenvolvimento:**
 
   ```bash
   npm run dev
@@ -18,7 +26,7 @@ Este projeto é um frontend React + Vite com TypeScript.
 
   O app estará disponível normalmente em `http://localhost:5173`.
 
-3. **Rodar os testes:**
+4. **Rodar os testes:**
 
   ```bash
   npm test
