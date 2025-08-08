@@ -32,12 +32,22 @@ Este projeto é um desafio de frontend para fazer um mini dashboard de usuários
   npm test
   ```
 
+
 ## Tecnologias principais
 - React
 - TypeScript
 - Vite
 - TailwindCSS
 - Vitest + Testing Library
+- React Router DOM
+
+## Roteamento
+
+Este projeto utiliza [React Router DOM](https://reactrouter.com/) para navegação SPA. As rotas são configuradas em `src/main.tsx` usando `createBrowserRouter` e `RouterProvider`.
+
+Rotas principais:
+- `/` — Página inicial (`Home`)
+- Rotas não encontradas ou erros — Página de erro (`Error`)
 
 ## Especificações
 - Possui react hooks
