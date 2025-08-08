@@ -1,4 +1,6 @@
 import { useUsers } from "../hooks/useUsers";
+import { ErrorMessage } from "./ErrorMessage";
+import { Loading } from "./Loading";
 import { UserCard } from "./UserCard";
 
 export const UserList = () => {
@@ -10,11 +12,11 @@ export const UserList = () => {
 
       {(() => {
         if (isLoading) {
-          return <div>Loading...</div>
+          return <Loading />
         }
 
         if (error) {
-          return <div className="text-red-500 text-lg">{error}</div>
+          return <ErrorMessage />
         }
 
         if (filteredUsers.length === 0) {
