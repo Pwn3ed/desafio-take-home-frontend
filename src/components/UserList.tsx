@@ -1,7 +1,7 @@
 import { useUsers } from "../hooks/useUsers";
 import { ErrorMessage } from "./ErrorMessage";
 import { Loading } from "./Loading";
-import SearchBar from "./SearchBar";
+import { SearchBar } from "./SearchBar";
 import { UserCard } from "./UserCard";
 
 export const UserList = () => {

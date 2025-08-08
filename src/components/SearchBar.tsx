@@ -4,7 +4,7 @@ type SearchBarProps = {
     onChange: (value: string) => void;
 };
 
-const SearchBar = ({ value, onChange }: SearchBarProps) => {
+export const SearchBar = ({ value, onChange }: SearchBarProps) => {
     return (
         <div className="flex gap-2">
             <input
@@ -24,5 +24,3 @@ const SearchBar = ({ value, onChange }: SearchBarProps) => {
         </div>
     );
 };
-
-export default SearchBar;
