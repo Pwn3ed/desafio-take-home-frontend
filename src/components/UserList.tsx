@@ -21,7 +21,7 @@ export const UserList = () => {
         }
 
         if (error) {
-          return <ErrorMessage />
+          return <ErrorMessage message={error} />
         }
 
         if (filteredUsers.length === 0) {
